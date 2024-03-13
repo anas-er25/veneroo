@@ -5,6 +5,7 @@ import Pricing from "../components/Layouts/Landing/Pricing";
 import Blogs from "../components/Layouts/Landing/Blog/Blogs";
 import Contact from "../components/Layouts/Landing/Contact";
 import NotFound from "../components/Layouts/NotFound";
+import BlogSingle from "../components/Layouts/Landing/Blog/BlogSingle";
 
 export const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ export const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/singleblog",
+        element: <BlogSingle />,
       },
       {
         path: "*",

@@ -1,5 +1,6 @@
 import BlogSearch from "./BlogSearch";
 import Breadcrumbs from "../master/Breadcrumbs";
+import { Link } from "react-router-dom";
 
 const Blogs = () => {
   return (
@@ -20,27 +21,27 @@ const Blogs = () => {
                 </div>
 
                 <h2 className="entry-title">
-                  <a href="blog-single.html">
+                  <Link to="/singleblog">
                     Dolorum optio tempore voluptas dignissimos cumque fuga qui
                     quibusdam quia
-                  </a>
+                  </Link>
                 </h2>
 
                 <div className="entry-meta">
                   <ul>
                     <li className="d-flex align-items-center">
                       <i className="bi bi-person"></i>{" "}
-                      <a href="blog-single.html">John Doe</a>
+                      <Link to="/singleblog">John Doe</Link>
                     </li>
                     <li className="d-flex align-items-center">
                       <i className="bi bi-clock"></i>{" "}
-                      <a href="blog-single.html">
+                      <Link to="/singleblog">
                         <time dateTime="2020-01-01">Jan 1, 2020</time>
-                      </a>
+                      </Link>
                     </li>
                     <li className="d-flex align-items-center">
                       <i className="bi bi-chat-dots"></i>{" "}
-                      <a href="blog-single.html">12 Comments</a>
+                      <Link to="/singleblog">12 Comments</Link>
                     </li>
                   </ul>
                 </div>
@@ -55,7 +56,7 @@ const Blogs = () => {
                     assumenda perferendis dolore.
                   </p>
                   <div className="read-more">
-                    <a href="blog-single.html">Read More</a>
+                    <Link to="/singleblog">Read More</Link>
                   </div>
                 </div>
               </article>
@@ -70,26 +71,26 @@ const Blogs = () => {
                 </div>
 
                 <h2 className="entry-title">
-                  <a href="blog-single.html">
+                  <Link to="/singleblog">
                     Nisi magni odit consequatur autem nulla dolorem
-                  </a>
+                  </Link>
                 </h2>
 
                 <div className="entry-meta">
                   <ul>
                     <li className="d-flex align-items-center">
                       <i className="bi bi-person"></i>{" "}
-                      <a href="blog-single.html">John Doe</a>
+                      <Link to="/singleblog">John Doe</Link>
                     </li>
                     <li className="d-flex align-items-center">
                       <i className="bi bi-clock"></i>{" "}
-                      <a href="blog-single.html">
+                      <Link to="/singleblog">
                         <time dateTime="2020-01-01">Jan 1, 2020</time>
-                      </a>
+                      </Link>
                     </li>
                     <li className="d-flex align-items-center">
                       <i className="bi bi-chat-dots"></i>{" "}
-                      <a href="blog-single.html">12 Comments</a>
+                      <Link to="/singleblog">12 Comments</Link>
                     </li>
                   </ul>
                 </div>
@@ -106,7 +107,7 @@ const Blogs = () => {
                     odio quos distinctio.
                   </p>
                   <div className="read-more">
-                    <a href="blog-single.html">Read More</a>
+                    <Link to="/singleblog">Read More</Link>
                   </div>
                 </div>
               </article>
@@ -121,27 +122,27 @@ const Blogs = () => {
                 </div>
 
                 <h2 className="entry-title">
-                  <a href="blog-single.html">
+                  <Link to="/singleblog">
                     Possimus soluta ut id suscipit ea ut. In quo quia et soluta
                     libero sit sint.
-                  </a>
+                  </Link>
                 </h2>
 
                 <div className="entry-meta">
                   <ul>
                     <li className="d-flex align-items-center">
                       <i className="bi bi-person"></i>{" "}
-                      <a href="blog-single.html">John Doe</a>
+                      <Link to="/singleblog">John Doe</Link>
                     </li>
                     <li className="d-flex align-items-center">
                       <i className="bi bi-clock"></i>{" "}
-                      <a href="blog-single.html">
+                      <Link to="/singleblog">
                         <time dateTime="2020-01-01">Jan 1, 2020</time>
-                      </a>
+                      </Link>
                     </li>
                     <li className="d-flex align-items-center">
                       <i className="bi bi-chat-dots"></i>{" "}
-                      <a href="blog-single.html">12 Comments</a>
+                      <Link to="/singleblog">12 Comments</Link>
                     </li>
                   </ul>
                 </div>
@@ -155,7 +156,7 @@ const Blogs = () => {
                     at recusandae nesciunt. Ut dolores velit.
                   </p>
                   <div className="read-more">
-                    <a href="blog-single.html">Read More</a>
+                    <Link to="/singleblog">Read More</Link>
                   </div>
                 </div>
               </article>
@@ -170,27 +171,27 @@ const Blogs = () => {
                 </div>
 
                 <h2 className="entry-title">
-                  <a href="blog-single.html">
+                  <Link to="/singleblog">
                     Non rem rerum nam cum quo minus. Dolor distinctio deleniti
                     explicabo eius exercitationem.
-                  </a>
+                  </Link>
                 </h2>
 
                 <div className="entry-meta">
                   <ul>
                     <li className="d-flex align-items-center">
                       <i className="bi bi-person"></i>{" "}
-                      <a href="blog-single.html">John Doe</a>
+                      <Link to="/singleblog">John Doe</Link>
                     </li>
                     <li className="d-flex align-items-center">
                       <i className="bi bi-clock"></i>{" "}
-                      <a href="blog-single.html">
+                      <Link to="/singleblog">
                         <time dateTime="2020-01-01">Jan 1, 2020</time>
-                      </a>
+                      </Link>
                     </li>
                     <li className="d-flex align-items-center">
                       <i className="bi bi-chat-dots"></i>{" "}
-                      <a href="blog-single.html">12 Comments</a>
+                      <Link to="/singleblog">12 Comments</Link>
                     </li>
                   </ul>
                 </div>
@@ -207,7 +208,7 @@ const Blogs = () => {
                     ducimus sint id earum ut nesciunt sed corrupti nemo.
                   </p>
                   <div className="read-more">
-                    <a href="blog-single.html">Read More</a>
+                    <Link to="/singleblog">Read More</Link>
                   </div>
                 </div>
               </article>
