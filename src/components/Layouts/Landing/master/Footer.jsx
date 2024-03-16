@@ -6,7 +6,7 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-3 col-md-6 footer-contact">
-                <h3>Company</h3>
+                <h3>Veneroo</h3>
                 <p>
                   A108 Adam Street <br />
                   New York, NY 535022
@@ -88,15 +88,12 @@ const Footer = () => {
 
         <div className="container d-md-flex py-4">
           <div className="me-md-auto text-center text-md-start">
-            <div className="copyright">
+            <div className="copyright py-2">
               &copy; Copyright{" "}
               <strong>
-                <span>Company</span>
+                <span>Veneroo</span>
               </strong>
               . All Rights Reserved
-            </div>
-            <div className="credits">
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
           </div>
           <div className="social-links text-center text-md-right pt-3 pt-md-0">

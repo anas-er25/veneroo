@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #2ae149;
+  color: #1698e4;
   text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #21df41;
+  background: #1698e4;
   color: #fff;
 }
 
@@ -868,7 +868,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-links a:hover {
-  color: #57e76f;
+  color: #1698e4;
 }
 
 .portfolio .portfolio-item:hover .portfolio-info {
@@ -1260,7 +1260,7 @@ section {
 }
 
 .pricing .btn-buy:hover {
-  background: #2ae149;
+  background: #1698e4;
 }
 
 .pricing .featured h3 {
@@ -1555,7 +1555,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #2ae149;
+  background: #1698e4;
 }
 
 @keyframes animate-loading {
@@ -1654,7 +1654,7 @@ section {
 }
 
 .blog .entry .entry-content .read-more a:hover {
-  background: #1ed33c;
+  background: #1698e4;
 }
 
 .blog .entry .entry-content h3 {
@@ -1864,7 +1864,7 @@ section {
 
 .blog .blog-comments .reply-form input:focus {
   box-shadow: none;
-  border-color: #57e76f;
+  border-color: #1698e4;
 }
 
 .blog .blog-comments .reply-form textarea {
@@ -1875,7 +1875,7 @@ section {
 
 .blog .blog-comments .reply-form textarea:focus {
   box-shadow: none;
-  border-color: #57e76f;
+  border-color: #1698e4;
 }
 
 .blog .blog-comments .reply-form .form-group {
@@ -1982,7 +1982,7 @@ section {
 }
 
 .blog .sidebar .search-form form button:hover {
-  background: #1ecf3b;
+  background: #0678b9;
 }
 
 .blog .sidebar .categories ul {
@@ -2133,7 +2133,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #1ed33c;
+  color: #1698e4;
   font-size: 18px;
   line-height: 1;
 }
@@ -2205,7 +2205,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #2ae149;
+  background: #1698e4;
 }
 
 #footer .credits {

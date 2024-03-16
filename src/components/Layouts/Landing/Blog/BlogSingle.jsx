@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Breadcrumbs from "../master/Breadcrumbs";
 import BlogComments from "./BlogComments";
 import BlogSearch from "./BlogSearch";
@@ -19,7 +20,7 @@ const BlogSingle = () => {
               </div>
 
               <h2 className="entry-title">
-                <a href="blog-single.html">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</a>
+                <Link to="/singleblog">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</Link>
               </h2>
 
               <div className="entry-meta">
@@ -108,7 +109,6 @@ const BlogSingle = () => {
 
           <div className="col-lg-4">
             <BlogSearch/>
-
           </div>
 
         </div>

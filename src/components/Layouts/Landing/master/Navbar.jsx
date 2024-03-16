@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Navbar() {
+  const location = useLocation();
   return (
     <>
       <header id="header" className="fixed-top">
@@ -14,21 +15,21 @@ export default function Navbar() {
           <nav id="navbar" className="navbar order-last order-lg-0">
             <ul>
               <li>
-                <Link to="/" className="active">
+                <Link to="/" className={location.pathname === '/' ? 'active' : ''}>
                   ACCUEIL
                 </Link>
               </li>
               <li>
-                <Link to="/about">À PROPOS</Link>
+                <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>À PROPOS</Link>
               </li>
               <li>
-                <Link to="/pricing">Tarifs</Link>
+                <Link to="/pricing" className={location.pathname === '/pricing' ? 'active' : ''}>Tarifs</Link>
               </li>
               <li>
-                <Link to="/blogs">Blog</Link>
+                <Link to="/blogs" className={location.pathname === '/blogs' ? 'active' : ''}>Blog</Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link>
               </li>
             </ul>
             <i className="bi bi-list mobile-nav-toggle"></i>

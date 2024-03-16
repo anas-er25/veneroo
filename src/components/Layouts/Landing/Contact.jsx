@@ -56,7 +56,7 @@ const Contact = () => {
           <div className="row mt-5 justify-content-center" data-aos="fade-up">
             <div className="col-lg-10">
               <form
-                action="forms/contact.php"
+                action="#"
                 method="post"
                 role="form"
                 className="php-email-form"
