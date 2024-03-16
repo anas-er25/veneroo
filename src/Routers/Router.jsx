@@ -4,7 +4,7 @@ import Home from "../components/Layouts/Landing/Home";
 import Pricing from "../components/Layouts/Landing/Pricing";
 import Blogs from "../components/Layouts/Landing/Blog/Blogs";
 import Contact from "../components/Layouts/Landing/Contact";
-import NotFound from "../components/Layouts/NotFound";
+import NotFound from "../components/Layouts/errors/NotFound";
 import BlogSingle from "../components/Layouts/Landing/Blog/BlogSingle";
 
 export const router = createBrowserRouter([

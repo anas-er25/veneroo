@@ -2,13 +2,7 @@ const NotFound = () => {
   return (
     <>
       <br />
-      <br />
-      <br />
-
-      <h1>Page Not Found</h1>
-      <br />
-      <br />
-      <br />
+      <img src="assets/img/notfound.svg" alt="image not found" />
     </>
   );
 };
