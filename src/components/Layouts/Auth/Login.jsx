@@ -10,14 +10,14 @@ const Login = () => {
               <div className="card-body">
                 <div className="app-brand justify-content-center">
                   {/* <Link to="/" className="app-brand-link gap-2"> */}
-                    <span className="app-brand-logo demo"></span>
-                    <span className="app-brand-text demo text-body fw-bold">
-                      <h1 className="logo me-auto">
-                        <Link to="/">
-                          <span>Vene</span>roo
-                        </Link>
-                      </h1>
-                    </span>
+                  <span className="app-brand-logo demo"></span>
+                  <span className="app-brand-text demo text-body fw-bold">
+                    <h1 className="logo me-auto">
+                      <Link to="/">
+                        <span>Vene</span>roo
+                      </Link>
+                    </h1>
+                  </span>
                   {/* </Link> */}
                 </div>
                 <h4 className="mb-2">Welcome to Veneroo! 👋</h4>
@@ -25,7 +25,12 @@ const Login = () => {
                   Please sign-in to your account and start the adventure
                 </p>
 
-                <form id="formAuthentication" className="mb-3" action="#">
+                <form
+                  id="formAuthentication"
+                  className="mb-3"
+                  action="#"
+                  method="POST"
+                >
                   <div className="mb-3">
                     <label htmlFor="email" className="form-label">
                       Email
