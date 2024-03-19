@@ -9,7 +9,7 @@ const Login = () => {
             <div className="card">
               <div className="card-body">
                 <div className="app-brand justify-content-center">
-                  <a href="index.html" className="app-brand-link gap-2">
+                  {/* <Link to="/" className="app-brand-link gap-2"> */}
                     <span className="app-brand-logo demo"></span>
                     <span className="app-brand-text demo text-body fw-bold">
                       <h1 className="logo me-auto">
@@ -18,7 +18,7 @@ const Login = () => {
                         </Link>
                       </h1>
                     </span>
-                  </a>
+                  {/* </Link> */}
                 </div>
                 <h4 className="mb-2">Welcome to Veneroo! 👋</h4>
                 <p className="mb-4">
