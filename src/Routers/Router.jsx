@@ -6,6 +6,8 @@ import Blogs from "../components/Layouts/Landing/Blog/Blogs";
 import Contact from "../components/Layouts/Landing/Contact";
 import NotFound from "../components/Layouts/errors/NotFound";
 import BlogSingle from "../components/Layouts/Landing/Blog/BlogSingle";
+import About from "../components/Layouts/Landing/About";
+import Login from "../components/Layouts/Auth/Login";
 
 export const router = createBrowserRouter([
   {
@@ -17,7 +19,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <Home />,
+        element: <About />,
       },
       {
         path: "/pricing",
@@ -35,10 +37,15 @@ export const router = createBrowserRouter([
         path: "/singleblog",
         element: <BlogSingle />,
       },
-      {
-        path: "*",
-        element: <NotFound />,
-      },
+      
     ],
   },
+  {
+    path: "*",
+    element: <NotFound />,
+  },
+  {
+    path:"/veneroo/admin/login",
+    element: <Login/>
+  }
 ]);
